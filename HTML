@@ -1,12 +1,132 @@
-- 👋 Hi, I’m @Mekkitarek
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tit le>
+        body {
+            font-family: 'Cairo', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #333;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .video-section, .image-section, .content-section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .video-section video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في موقع الذكاء الاصطناعي</h1>
+    </header>
 
-<!---
-Mekkitarek/Mekkitarek is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <nav>
+        <a href="#video">الفيديو</a>
+        <a href="#images">الصور</a>
+        <a href="#content">المحتوى</a>
+    </nav>
+
+    <main>
+        <!-- قسم الفيديو -->
+        <div class="video-section" id="video">
+            <h2>شاهد الفيديو التوضيحي</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+            <a href="#" class="btn">تحميل الفيديو</a>
+        </div>
+
+        <!-- قسم الصور -->
+        <div class="image-section" id="images">
+            <h2>عرض الصور</h2>
+            <img src="image.jpg" alt="صورة توضيحية">
+            <a href="#" class="btn">تحميل الصورة</a>
+        </div>
+
+        <!-- قسم المحتوى النصي -->
+        <div class="content-section" id="content">
+            <h2>عن الذكاء الاصطناعي</h2>
+            <p>
+                الذكاء الاصطناعي هو فرع من علوم الحاسوب يهدف إلى إنشاء أنظمة تستطيع محاكاة التفكير البشري. يستخدم في العديد من التطبيقات مثل التعلم الآلي، معالجة اللغة الطبيعية، وتحليل البيانات.
+            </p>
+            <p>
+                يمكن للذكاء الاصطناعي تحسين حياتنا اليومية من خلال التطبيقات الذكية مثل المساعدات الشخصية، تحسين التشخيص الطبي، والتوصيات الشخصية.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 جميع الحقوق محفوظة | موقع الذكاء الاصطناعي
+    </footer>
+
+    <script>
+        // رسالة ترحيبية عند فتح الموقع
+        alert("مرحبًا بك في موقع الذكاء الاصطناعي!\nقم بتصفح الفيديو والصور والمحتوى التعريفي.");
+    </script>
+</body>
+</html>
